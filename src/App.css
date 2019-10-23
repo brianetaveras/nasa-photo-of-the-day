@@ -8,7 +8,7 @@
 
 @keyframes zoom {
  0%{background-size: 100%;}
- 50%{background-size: 120%;}
+ 50%{background-size: 150%;}
  100%{background-size: 100%;}
 }
 .App {
@@ -19,7 +19,7 @@
   background-size: 100%!important;
   background-repeat: no-repeat!important;
   background-position: center!important;
-  animation: zoom 10s infinite ease-in-out!important;
+  animation: zoom 70s infinite ease-in-out!important;
 }
 
 .copyright-container{
