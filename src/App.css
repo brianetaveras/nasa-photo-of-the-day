@@ -7,19 +7,19 @@
 }
 
 @keyframes zoom {
- 0%{background-size: 100%;}
- 50%{background-size: 150%;}
- 100%{background-size: 100%;}
+ 0%{background-size: 100%}
+ 50%{background-size: 200%}
+ 100%{background-size: 100%}
 }
 .App {
   position: relative;
   text-align: center;
   width: 100%;
   height: 100vh;
-  background-size: 100%!important;
+  background-size: cover!important;
   background-repeat: no-repeat!important;
   background-position: center!important;
-  animation: zoom 70s infinite ease-in-out!important;
+  /* animation: zoom 70s infinite ease-in-out!important; */
 }
 
 .copyright-container{
