@@ -12,10 +12,10 @@ function App() {
       Axios.get('https://api.nasa.gov/planetary/apod?api_key=iP7upStusI09dISpB9ZTwPQcWurF87h3tIC68XSB').then(res=>{
         setData(res.data)
         let App = document.querySelector('.App')
-        App.style.background = `url('${res.data.hdurl}')`
+        App.style.background = `url('${res.data.url}')`
         console.log(res.data)
       })
-    
+   
     }, [])
 
 
